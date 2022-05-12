@@ -6,3 +6,27 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+.outline{
+    background-color: grey;
+    color: antiquewhite;
+    float: left;
+}
+.title{
+    font-size: 1.0rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+    margin-top: 5%;
+}
+#button6{
+    margin-bottom: 5%;
+}
+.container_list{
+    width: 100px;
+}
+
+#container_list{
+    background-color: lightgray;
+}
