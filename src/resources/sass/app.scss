@@ -14,6 +14,7 @@
     float: left;
 }
 .title{
+    border: 1px solid greenyellow;
     font-size: 1.0rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -29,4 +30,5 @@
 
 #container_list{
     background-color: lightgray;
+    float: left;
 }

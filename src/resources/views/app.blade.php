@@ -14,9 +14,7 @@
  <body>
      <div id="app">
      <!-- <example-component></example-component> -->
-    <!-- <div class="head" style="float:left;"> -->
         <header-component></header-component>
-    <!-- </div> -->
      <router-view></router-view>
  </div>
 <!-- Scripts -->
