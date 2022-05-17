@@ -1,22 +1,26 @@
   <template>
-      <div class="outline">
-          <div class="container">
+          <div class="menu-container">
               <nav class="navigation">
-                  <span class="title">i-Match</span>
+                  <h2 class="title" id="menu-title">i-Match</h2>
                  <div class="menu_bar">
-                      <button class="btn" id="button1">お知らせ</button><br>
-                      <button class="btn btn-success" id="button2">掲示板</button><br>
-                      <button class="btn btn-success" id="button3">チャット</button><br>
-                      <button class="btn btn-success" id="button4">ユーザーリスト</button><br>
-                      <button class="btn btn-success" id="button5">参加履歴</button><br>
-                      <button class="btn btn-success" id="button6">アカウント名(仮)</button>
+                     <span class="menu-image">⚪️</span>
+                      <button class="menu-list" id="menu-news">お知らせ</button><br>
+                      <span class="menu-image">⚪️</span>
+                      <button class="menu-list" id="menu-bulletin">掲示板</button><br>
+                      <span class="menu-image">⚪️</span>
+                      <button class="menu-list" id="menu-chat">チャット</button><br>
+                      <span class="menu-image">⚪️</span>
+                      <button class="menu-list" id="menu-user">ユーザーリスト</button><br>
+                      <span class="menu-image">⚪️</span>
+                      <button class="menu-list" id="menu-history">参加履歴</button><br>
+                      <span class="menu-image">⚪️</span>
+                      <button class="menu-list" id="menu-account">アカウント名(仮)</button>
                   </div>
-                  <div>
-                      <a href="#" class="urlButton">ログアウト</a>
+                  <div class="menu-account">
+                      <a href="#" class="menu-url" id="menu-logout">ログアウト</a>
                   </div>
               </nav>
-          </div>
-      </div>
+        </div>
   </template>
   
   <script>
@@ -24,13 +28,13 @@
   </script>
 
   <style scoped lang="scss">
-  ::v-deep .outline{
-    background-color: grey;
-    color: blue;
-    float: left;
-}
-  ::v-deep .container{
-      background-color: lightgreen;
-  }
+//   ::v-deep .outline{
+//     background-color: grey;
+//     color: blue;
+//     float: left;
+// }
+//   ::v-deep .container{
+//       background-color: lightgreen;
+//   }
   
   </style>

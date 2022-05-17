@@ -1,0 +1,37 @@
+.menu-container{
+    background-color: rgb(36, 36, 36);
+    float: left;
+    width: 25.0rem;
+}
+#menu-title,.menu-list,.menu-image{
+    color: rgb(232, 232, 232);
+}
+#menu-title{
+    font-size: 2.5rem;
+    margin-top: 20%;
+    margin-bottom: 25%;
+    margin-left: 30%;
+
+}
+.title{
+    margin-top: 10%;
+}
+.menu-list{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-top: 5%;
+    margin-bottom: 7.5%;
+}
+.menu-image{
+    font-size: 1.5rem;
+    margin-left: 10%;
+}
+.menu-account{
+    margin-bottom: 15%;
+}
+.menu-url{
+    color: rgb(24, 129, 194);
+    font-size: 1.5rem;
+    margin-left: 30%;
+}
