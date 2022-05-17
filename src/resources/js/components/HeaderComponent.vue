@@ -22,3 +22,15 @@
   <script>
       export default {}
   </script>
+
+  <style scoped lang="scss">
+  ::v-deep .outline{
+    background-color: grey;
+    color: blue;
+    float: left;
+}
+  ::v-deep .container{
+      background-color: lightgreen;
+  }
+  
+  </style>
