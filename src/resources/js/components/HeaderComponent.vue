@@ -1,6 +1,6 @@
   <template>
           <div class="menu-container">
-              <nav class="navigation">
+              <nav class="box scrollx">
                   <h2 class="title" id="menu-title">i-Match</h2>
                  <div class="menu_bar">
                      <span class="menu-image">⚪️</span>
