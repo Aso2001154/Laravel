@@ -1,4 +1,9 @@
 // MenuBar.scss
+.log-title{
+    background-color: #2c2c2c;
+    color: #ffffff;
+    width: 25.0rem;
+}
 .sidebar__item--fixed {
     background-color: #2c2c2c;
     float: left;
@@ -14,7 +19,7 @@
 // スクロール処理
 .menu-box{
     width:25.0rem;
-    height:59.0rem;
+    height:36.0rem;
   }
   .scroll{
     overflow:scroll;
@@ -32,13 +37,10 @@
 }
 #menu-title{
     font-size: 2.5rem;
-    margin-top: 25%;
-    margin-bottom: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 30%;
 
-}
-.title{
-    margin-top: 10%;
 }
 .menu-list{
     font-size: 1.5rem;
@@ -52,9 +54,12 @@
     margin-left: 10%;
 }
 .menu-account{
-    margin-bottom: 15%;
+    width: 25rem;
+    margin-bottom: 10%;
+    background-color: #2c2c2c;
 }
 .menu-url{
+    background-color: #2c2c2c;
     color: rgb(24, 129, 194);
     font-size: 1.5rem;
     margin-left: 30%;

@@ -36,11 +36,10 @@ window.Vue = require('vue').default;
 
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-Vue.component('Log-component', FixedLogComponent);
 Vue.component('header-component', HeaderComponent);
-Vue.component('Account-component', FixedAccount);
+Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('log-component', FixedLogComponent);
+Vue.component('account-component', FixedAccount);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

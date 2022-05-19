@@ -4,3 +4,6 @@
         <a href="#" class="menu-url" id="menu-logout">ログアウト</a>
     </div>
 </template>
+  <script>
+      export default {}
+  </script>

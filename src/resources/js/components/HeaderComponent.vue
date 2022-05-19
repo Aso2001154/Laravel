@@ -1,4 +1,4 @@
-  <template>
+<template>
           <div class="sidebar__item--fixed">
               <div class="menu-box scrolly">
                     <!-- <h2 class="title" id="menu-title">i-Match</h2> -->
@@ -26,15 +26,3 @@
   <script>
       export default {}
   </script>
-
-  <style scoped lang="scss">
-//   ::v-deep .outline{
-//     background-color: grey;
-//     color: blue;
-//     float: left;
-// }
-//   ::v-deep .container{
-//       background-color: lightgreen;
-//   }
-  
-  </style>
