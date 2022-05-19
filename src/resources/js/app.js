@@ -6,6 +6,8 @@
 import VueRouter from 'vue-router';
 import HeaderComponent from "./components/HeaderComponent";
 import TaskListComponent from "./components/TaskListComponent";
+import FixedLogComponent from "./components/FixedLogComponent";
+import FixedAccount from "./components/FixedAccount";
 
 require('./bootstrap');
 
@@ -36,7 +38,9 @@ window.Vue = require('vue').default;
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('Log-component', FixedLogComponent);
 Vue.component('header-component', HeaderComponent);
+Vue.component('Account-component', FixedAccount);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
