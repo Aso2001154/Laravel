@@ -15,8 +15,9 @@
      <div id="app">
         <log-component></log-component>
         <header-component></header-component>
-        <router-view></router-view>
         <account-component></account-component>
+        <router-view></router-view>
+        
         
  </div>
 <!-- Scripts -->
