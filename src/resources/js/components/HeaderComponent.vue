@@ -1,6 +1,7 @@
 <template>
           <div class="sidebar__item--fixed">
               <div class="menu-box scrolly">
+                  <!--  githubにうまくプッシュできているかの確認-->
                     <!-- <h2 class="title" id="menu-title">i-Match</h2> -->
                  <div class="menu_bar">
                      <span class="menu-image">⚪️</span>

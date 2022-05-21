@@ -1,4 +1,5 @@
   <template>
+  <div>
       <div class="bulletin-container">
             <div class="submenu-bulletin">
               <p class="submenu" id="submenu-event">イベント</p>
@@ -54,11 +55,22 @@
                     </div>
                 </div>
             </div>
-          
-
       </div>
+      <SkillSearch1></SkillSearch1>
+  </div>
+
+        
+      
   </template>
   
   <script>
-      export default {}
+    import SkillSearch from './SkillSearch.vue'
+import SkillSearch1 from './SkillSearch.vue'
+
+      export default {
+        components: {
+    SkillSearch,
+    SkillSearch1
+}
+      }
   </script>

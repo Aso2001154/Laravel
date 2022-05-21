@@ -1,16 +1,19 @@
 .bulletin-container{
-    position:absolute;
+    // position:absolute;
     margin-left: 25rem;
     top: 6rem;
-    width: 50%;
+    width: 55%;
 }
 .submenu-bulletin{
     padding-top: 1%;
     color: #ffffff;
     margin-bottom: 1rem;
     margin-top: 0;
-    margin-bottom: 1rem;
-
+    position: fixed;
+    top: 6rem;
+    background-color: #3f3f3f;
+    z-index: 2;
+    width: 55%;
 }
 #submenu-event{
     float: left;
@@ -19,6 +22,11 @@
 }
 .bulletin-container{
     background-color: #3f3f3f;
+}
+.bulletin{
+    top: 9.1rem;
+    position: absolute;
+    width: 55%;
 }
 .bulletin-list{
     border-bottom: 2px solid #3f3f3f;
@@ -37,4 +45,5 @@
 }
 .readmore-detail:hover{
     background-color: #db9006;
+    border-radius: 5px;
 }
